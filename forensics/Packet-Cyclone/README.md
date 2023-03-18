@@ -19,3 +19,6 @@ Description: Pandora's friend and partner, Wade, is the one that leads the inves
          1. These look like config or rule type files
 2. Event Viewer
    1. Lets open up windows event viewer and import these log files
+   2. We can see that several of the event logs are only 68kb and after opening the first few we see they are empty
+   3. So for sake of time / efficiency I am only going to import logs > 68kb
+   4. Lets start with Powershell
