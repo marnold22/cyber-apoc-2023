@@ -61,6 +61,7 @@
 - Last Hope
 - On The Rescue
 - Vision Chip
+- Reading the Stars
 - The Trial of the Sky
 
 ## 7. Misc
@@ -95,6 +96,7 @@
 - Inside The Matrix
 - Colliding Heritage
 - Elliptic Labyrinth
+- Elliptic Labyrinth Revenge
 - Biased Heritage
 - Converging Visions
 - Blokechain
