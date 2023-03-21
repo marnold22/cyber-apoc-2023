@@ -1,8 +1,8 @@
 # Reconfiguration
 
-## FLAG: HTB{}
+## FLAG: HTB{sc4tter_pl0ts_4_th3_w1n}
 
-## Status: Incomplete
+## Status: Complete
 
 + DOCKER: No
 + DOWNLOADABLE: Yes
@@ -40,6 +40,21 @@ Description: As Pandora set out on her quest to find the ancient alien relic, sh
                 FksFdYwEdGltZZRHQdanFivFtfp1YmV1Lg==
             ```
 
+            ```dec_base64
+               ...........}.(..auto_commit....auto_sample....controlAreaVisible....savedWidgetGeometry.CB.ÙÐË.......J...#...Y.......K...B...X............
+               p...K...B...X......selection.N..tooltip_shows_all....visual_settings.}...graph.}.(..alpha_value.K..
+               class_density....jitter_continuous....jitter_size.K
+               ..label_only_selected....orthonormal_regression....point_width.K
+               .show_grid....show_legend...
+               show_reg_line..u..__version__.K...context_settings.].(..orangewidget.settings...Context...)..}.(..values.}.(.
+               attr_color.NJþÿÿÿ...
+               attr_label.NJþÿÿÿ...
+               attr_shape.NJþÿÿÿ...attr_size.NJþÿÿÿ....attr_x..Feature 1.Kf....attr_y..Feature 2.Kf..h
+               }.h.K.u.
+               attributes.}.(h)K.h,K.u..metas.}.ubh.)..}.(..ordered_domain.].(..sepal length.K.....sepal width.K.....petal length.K.....petal width.K.....iris.K...eh1}.h/}.(h=K.h7K.h?K.h;K.h9K.uh.}.(h ..iris.Ke..h"NJþÿÿÿ..h$NJþÿÿÿ..h&NJþÿÿÿ..h(..sepal length.Kf..h+..sepal width.Kf..h
+               }.h.K.u..time.GAÖ§.+Åµúubeu.
+            ```
+
       4. Properties node_id = 1
 
             ```base64
@@ -64,7 +79,25 @@ Description: As Pandora set out on her quest to find the ancient alien relic, sh
                 X3ZhcnOUKYwSbW9kaWZpZWRfdmFyaWFibGVzlF2UdWJhdS4=
             ```
 
+            ```dec_base64
+               ...........}.(..controlAreaVisible....recent_paths.].(..orangewidget.utils.filedialogs..
+               RecentPath...)..}.(..abspath..b/Users/amra/Documents/htb-events-dev/ca_2023/misc/[Very Easy] Tracing the truth/release/points.csv...prefix...basedir...relpath..
+               points.csv...title......sheet.h...file_format.Nubh.)..}.(h.6D:/Challenges/scatter_orange/Orange_challenge/data.csv.h...basedir.h
+               ..data.csv.h.h.h.h.h.Nubh.)..}.(h../Applications/Orange3.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Orange/datasets/iris.tab.h...sample-datasets.h
+               ..iris.tab.h.h.h.h.h.Nube..recent_urls.]...savedWidgetGeometry.CB.ÙÐË...................!.......±.......!......... .......±.......!...sheet_names.}...source.K...url.h..
+               domain_editor.}...__version__.K...context_settings.]...orangewidget.settings...Context...)..}.(..values.}.(.variables.].h%}.h1].(].(.Feature 1...Orange.data.variable...ContinuousVariable...K.h..e].(.Feature 2.h9K.h..eesh'K.u.
+               attributes..Feature 1.K....Feature 2.K.......metas.).
+               class_vars.)..modified_variables.].ubau.
+            ```
+
+      5. These base64 decoded chunks don't really help me right this second, so lets keep exploring
    2. points.csv
       1. CSV -> comma seperated variable
       2. This looks like a couple of data points ie (x,y)
-3. Install Orange Data Mining software
+      3. Could be some image drawn using datapoints like SVG's or scatterplots
+3. ORANGE DATA MINING
+   1. Install Orange Data Mining software (windows)
+   2. In here we now want to import our CSV file
+   3. Then link the data from the CSV_Import -> Scatter_Plot
+      1. Once opening the scatterplot we what looks like letters, but if we zoom the window out we can se the flag in plaintext
+         1. FLAG: `HTB{sc4tter_pl0ts_4_th3_w1n}`
