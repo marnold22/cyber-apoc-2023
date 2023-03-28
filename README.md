@@ -4,9 +4,9 @@
 
 ## 1. Pwn
 
-- Initialise Connection
-- Questionnaire
-- Getting Started
+- Initialise Connection - COMPLETED
+- Questionnaire - COMPLETED
+- Getting Started - COMPLETED
 - Labyrinth
 - Pandora's Box
 - Void
@@ -17,7 +17,7 @@
 
 ## 2. Web
 
-- Trapped Source
+- Trapped Source - COMPLETED
 - Gunhead
 - Drobots
 - Passman
@@ -29,13 +29,13 @@
 
 ## 3. Blockchain
 
-- Navigating the Unknown
+- Navigating the Unknown - COMPLETED
 - Shooting 101
 - The Art of Deception
 
 ## 4. Hardware
 
-- Timed Transmission
+- Timed Transmission - COMPLETED
 - Critical Flight
 - Debug
 - Secret Code
@@ -43,9 +43,9 @@
 
 ## 5. Reversing
 
-- Shattered Tablet
+- Shattered Tablet - COMPLETED
 - She Shells C Shells
-- Needle in a Haystack
+- Needle in a Haystack - COMPLETED
 - Hunting License
 - Cave System
 - Alien Saboteaur
@@ -56,7 +56,7 @@
 
 ## 6. ML
 
-- Reconfiguration
+- Reconfiguration - COMPLETED
 - Mysterious Learnings
 - Last Hope
 - On The Rescue
@@ -66,19 +66,19 @@
 
 ## 7. Misc
 
-- Persistence
+- Persistence - COMPLETED
 - Hijack
 - Restricted
-- Janken
+- Janken - COMPLETED
 - nehebkaus trap
 - The Chasm's Crossing Conundrum
 - Calibrator
 
 ## 8. Forensics
 
-- Plaintext Tleasure
-- Alien Cradle
-- Extraterrestrial Persistence
+- Plaintext Tleasure - COMPLETED
+- Alien Cradle - COMPLETED
+- Extraterrestrial Persistence - COMPLETED
 - Roten
 - Packet Cyclone
 - Artifacts of Dangerous Sightings
@@ -89,8 +89,8 @@
 
 ## 9. Crytpo
 
-- Ancient Encodings
-- Small StEps
+- Ancient Encodings - COMPLETED
+- Small StEps - COMPLETED
 - Perfect Synchronization
 - Multipage Recyclings
 - Inside The Matrix
